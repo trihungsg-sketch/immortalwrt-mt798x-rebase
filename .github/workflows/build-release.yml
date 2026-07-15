@@ -1,5 +1,5 @@
 name: Build Release
-
+yarn install --ignore-scripts
 on:
   push:
     tags:
